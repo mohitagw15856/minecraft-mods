@@ -1,0 +1,11 @@
+name: CartographersContracts
+version: '${version}'
+main: dev.mohit.contracts.ContractsPlugin
+api-version: '1.21'
+description: Buy expeditions to distant structures — arriving pays out emeralds.
+author: Mohit
+website: https://github.com/mohitagw15856/minecraft-mods
+commands:
+  contract:
+    description: Buy and track exploration contracts
+    usage: /contract <list|buy|status|cancel>

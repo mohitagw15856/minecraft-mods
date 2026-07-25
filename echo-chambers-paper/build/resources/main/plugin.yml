@@ -1,0 +1,11 @@
+name: EchoChambers
+version: '1.0.0'
+main: dev.mohit.echochambers.EchoChambersPlugin
+api-version: '1.21'
+description: Bind a 10-second chat recording to a lodestone — it replays for anyone who walks past.
+author: Mohit
+website: https://github.com/mohitagw15856/minecraft-mods
+commands:
+  echo:
+    description: Record and manage echo chambers
+    usage: /echo <record|clear|list>

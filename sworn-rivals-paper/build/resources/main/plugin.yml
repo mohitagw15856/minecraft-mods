@@ -1,0 +1,11 @@
+name: SwornRivals
+version: '1.0.0'
+main: dev.mohit.swornrivals.SwornRivalsPlugin
+api-version: '1.21'
+description: The server secretly pairs players as weekly rivals — outscore yours to steal a buff.
+author: Mohit
+website: https://github.com/mohitagw15856/minecraft-mods
+commands:
+  rivals:
+    description: Show your rival and scores, or reshuffle pairs (op)
+    usage: /rivals [shuffle]

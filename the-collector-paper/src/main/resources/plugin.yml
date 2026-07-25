@@ -1,0 +1,11 @@
+name: TheCollector
+version: '${version}'
+main: dev.mohit.thecollector.CollectorPlugin
+api-version: '1.21'
+description: A mysterious collector requests one odd item per day — first player to deliver wins the pot.
+author: Mohit
+website: https://github.com/mohitagw15856/minecraft-mods
+commands:
+  collector:
+    description: See today's request or deliver the item in your hand
+    usage: /collector [deliver|log]

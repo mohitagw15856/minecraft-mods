@@ -1,0 +1,11 @@
+name: MobMoods
+version: '1.0.0'
+main: dev.mohit.mobmoods.MobMoodsPlugin
+api-version: '1.21'
+description: Hostile mobs spawn with moods that change their behavior — feed them berries to cheer them up.
+author: Mohit
+website: https://github.com/mohitagw15856/minecraft-mods
+commands:
+  moods:
+    description: Mob mood summary, or toggle the system (op)
+    usage: /moods [on|off]

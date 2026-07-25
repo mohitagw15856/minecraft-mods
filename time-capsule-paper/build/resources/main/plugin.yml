@@ -1,0 +1,12 @@
+name: TimeCapsule
+version: '1.0.0'
+main: dev.mohit.timecapsule.TimeCapsulePlugin
+api-version: '1.21'
+description: Seal a chest as a time capsule that only opens after a chosen number of in-game days.
+author: Mohit
+website: https://github.com/mohitagw15856/minecraft-mods
+commands:
+  capsule:
+    description: Seal, check and list time capsules
+    usage: /capsule <seal|check|list>
+    aliases: [tc]

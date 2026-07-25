@@ -1,0 +1,11 @@
+name: HeirloomItems
+version: '1.0.0'
+main: dev.mohit.heirloomitems.HeirloomPlugin
+api-version: '1.21'
+description: Designate one precious item — when you die it passes to your chosen heir instead of dropping.
+author: Mohit
+website: https://github.com/mohitagw15856/minecraft-mods
+commands:
+  heirloom:
+    description: Manage your heirloom and heir
+    usage: /heirloom <set|heir|status>

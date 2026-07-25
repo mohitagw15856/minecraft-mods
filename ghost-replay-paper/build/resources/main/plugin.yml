@@ -1,0 +1,11 @@
+name: GhostReplay
+version: '1.0.0'
+main: dev.mohit.ghostreplay.GhostReplayPlugin
+api-version: '1.21'
+description: After you die, a ghost retraces your final 30 seconds so you can find where you died.
+author: Mohit
+website: https://github.com/mohitagw15856/minecraft-mods
+commands:
+  ghost:
+    description: Toggle ghost replays or replay your last death
+    usage: /ghost [last]

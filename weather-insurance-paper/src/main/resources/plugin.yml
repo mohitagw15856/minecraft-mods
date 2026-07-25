@@ -1,0 +1,11 @@
+name: WeatherInsurance
+version: '${version}'
+main: dev.mohit.weatherinsurance.WeatherInsurancePlugin
+api-version: '1.21'
+description: Insure the chunk you stand in — explosions, fire and lightning damage pay out emeralds automatically.
+author: Mohit
+website: https://github.com/mohitagw15856/minecraft-mods
+commands:
+  insure:
+    description: Buy and check insurance policies
+    usage: /insure [status|cancel]

@@ -1,0 +1,11 @@
+name: SeasonPass
+version: '${version}'
+main: dev.mohit.seasonpass.SeasonPassPlugin
+api-version: '1.21'
+description: A free cosmetic battle pass — every kind of play earns pass XP across 20 tiers.
+author: Mohit
+website: https://github.com/mohitagw15856/minecraft-mods
+commands:
+  pass:
+    description: Open your Season Pass
+    usage: /pass
