@@ -1,0 +1,23 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Bounty Board",
+    "description": "Daily rotating bounties with tiers, streaks and rewards. Use a Book to open the board!",
+    "uuid": "e982c4e5-43e7-4c30-98ca-74119f2fd4ce",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 21, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "58a21420-4217-4cb7-b278-812e42f6acb9",
+      "version": [1, 0, 0],
+      "entry": "scripts/main.js"
+    }
+  ],
+  "dependencies": [
+    { "module_name": "@minecraft/server", "version": "1.17.0" },
+    { "module_name": "@minecraft/server-ui", "version": "1.2.0" }
+  ]
+}

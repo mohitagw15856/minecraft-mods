@@ -1,0 +1,12 @@
+name: BountyBoard
+version: '${version}'
+main: dev.mohit.bountyboard.BountyBoardPlugin
+api-version: '1.21'
+description: Daily rotating bounties with tiers, streaks and rewards.
+author: Mohit
+website: https://github.com/mohitagw15856
+commands:
+  bounty:
+    description: Open the Bounty Board
+    usage: /bounty
+    aliases: [bb, bounties]
